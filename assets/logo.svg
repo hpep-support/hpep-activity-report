@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Circular Text Path -->
+  <defs>
+    <path id="circlePath" d="M 100, 100 m -70, 0 a 70,70 0 1,1 140,0 a 70,70 0 1,1 -140,0" />
+  </defs>
+  
+  <!-- Outer Glow / Circle -->
+  <circle cx="100" cy="100" r="85" stroke="rgba(0, 242, 255, 0.3)" stroke-width="1" />
+  <circle cx="100" cy="100" r="60" stroke="white" stroke-width="2" />
+  
+  <!-- Circular Text -->
+  <text fill="white" font-family="'Inter', sans-serif" font-size="10" font-weight="700">
+    <textPath href="#circlePath">
+      HAPPY PLANET EARTH PROJECT • HAPPY PLANET EARTH PROJECT •
+    </textPath>
+  </text>
+  
+  <!-- Center Text -->
+  <text x="100" y="115" text-anchor="middle" fill="white" font-family="'Inter', sans-serif" font-size="42" font-weight="900" style="letter-spacing: 2px;">
+    HPEP
+  </text>
+  
+  <!-- Subtle Glow Effect -->
+  <circle cx="100" cy="100" r="60" stroke="cyan" stroke-width="4" opacity="0.2">
+    <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3s" repeatCount="indefinite" />
+  </circle>
+</svg>
